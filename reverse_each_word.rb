@@ -1,7 +1,6 @@
 
 def reverse_each_word(sentence1)
-new_sentence = sentence1.split
-new_sentence.each do |flipped| new_sentence.reverse
-new_sentence
+sentence1.each slice do |flipped| sentence1.reverse
+pp sentence1
 end
 end
